@@ -8,7 +8,7 @@ import custom.backend.stubs.QueryStatus;
 public interface IngestContext {
     LablelMetricRegistry getMetricRegistry();
 
-    Domain fetchDOmain(final String domainName);
+    Domain fetchDomain(final String domainName);
 
     NestedDomain fetchNestedDomain(final String domainName);
 
