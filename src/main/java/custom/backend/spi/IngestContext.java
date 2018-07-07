@@ -1,4 +1,4 @@
-package custom.backend;
+package custom.backend.spi;
 
 import custom.backend.stubs.Domain;
 import custom.backend.stubs.LablelMetricRegistry;

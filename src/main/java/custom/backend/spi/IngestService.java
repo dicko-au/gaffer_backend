@@ -1,8 +1,7 @@
-package custom.backend;
+package custom.backend.spi;
 
 import java.io.File;
 import java.util.List;
-import java.util.concurrent.Future;
 
 public interface IngestService {
 

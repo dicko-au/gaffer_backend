@@ -1,4 +1,4 @@
-package custom.backend;
+package custom.backend.spi;
 
 import java.util.Collection;
 

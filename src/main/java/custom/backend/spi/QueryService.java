@@ -1,9 +1,7 @@
-package custom.backend;
+package custom.backend.spi;
 
 import custom.backend.stubs.QueryRequest;
 import custom.backend.stubs.ResultBatch;
-
-import java.util.concurrent.Future;
 
 public interface QueryService {
     // TODO Fix Futures

@@ -1,4 +1,4 @@
-package custom.backend;
+package custom.backend.spi;
 
 import custom.backend.stubs.Domain;
 import custom.backend.stubs.NestedDomain;
@@ -11,8 +11,8 @@ import custom.backend.stubs.QueryStatus;
  * I think the core will call out to the implementations of this to query sinks.
  */
 public interface QueryContext {
-    LabeledMetricRegistry getmetricRegistry();
+    LabeledMetricRegistry getMetricRegistry();
     Domain fetchDomain(final String domainName);
     NestedDomain fetchNestedDomain(final String domainName);
-    void event(final String queryId, final String message, final QueryStatus status)
+    void event(final String queryId, final String message, final QueryStatus status);
 }
